@@ -2,10 +2,10 @@
 import {bootstrap}    from 'angular2/platform/browser'
 
 // load our our components
-//import {AppComponent} from './app.component'
+import {NavComponent} from './nav.component'
 import {HelloWorldComponent} from './hello-world'
 
 //This will instantiates our components
 
-//bootstrap(AppComponent);
+bootstrap(NavComponent);
 bootstrap(HelloWorldComponent);
