@@ -6,7 +6,9 @@ import {Component, View} from 'angular2/core';
 })
 
 @View({
-   template: '<h1>This is our first component named:  {{ name }}!</h1>'
+   template: `
+      <h1>This is our first component named:  {{ name }}!</h1>
+   `
 })
 
 export class HelloWorldComponent {
