@@ -20,3 +20,11 @@
    `npm start`
 
 5. Create our first component HelloWorldComponent
+
+6. Similar source https://github.com/pkozlowski-opensource/ng2-play with gulp
+
+7. Installing getbootstrap.com adding into package.json
+
+   `"bootstrap": "^3.3.6"`
+
+   `npm install`
