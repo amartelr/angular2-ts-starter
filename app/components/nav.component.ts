@@ -27,10 +27,12 @@ import {Component, View} from 'angular2/core';
               </div><!--/.nav-collapse -->
             </div>
           </nav>
+          
+          <div>
+             <center>Main text</center>
+          </div>
       </div>
-      <div>
-         <center>Main text</center>
-      </div>
+
    `
 })
 
