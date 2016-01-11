@@ -7,7 +7,8 @@ import {Component, View} from 'angular2/core';
 
 @View({
    template: `
-      <h1>This is our first component named:  {{ name }}!</h1>
+      <h1>This is our first component named:  {{name}}!</h1>
+      <button (click)="onClickHandler()">Change me</button>
    `
 })
 
@@ -16,5 +17,9 @@ export class HelloWorldComponent {
 
    constructor() {
       this.name = "HelloWorldComponent";
+   }
+
+   onClickHandler(){
+      this.name = "Changed"
    }
 }
